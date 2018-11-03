@@ -1,0 +1,14 @@
+package toy;
+
+public class ElectronicRobotToy {
+	
+	private Battery battery;
+	
+	public ElectronicRobotToy() {
+		
+	}
+	
+	public void setBatter(Battery battery) {
+		this.battery = battery;
+	}
+}

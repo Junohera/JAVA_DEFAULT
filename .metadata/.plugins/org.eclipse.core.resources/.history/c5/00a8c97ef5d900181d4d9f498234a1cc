@@ -1,0 +1,4 @@
+import ems.member;
+public class DataBaseConnectionInfo {
+	
+}
