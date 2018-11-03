@@ -1,6 +1,7 @@
 package ems.member.service;
 
 import ems.member.Student;
+import ems.member.dao.StudentDao;
 
 public class StudentDeleteService {
 	

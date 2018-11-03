@@ -1,6 +1,7 @@
 package ems.member.service;
 
 import ems.member.Student;
+import ems.member.dao.StudentDao;
 
 public class StudentSelectService {
 	
@@ -21,8 +22,8 @@ public class StudentSelectService {
 	}
 	
 	public boolean verify(String sNum) {
-		Student student = studentDao.select(sNum);
-		return student != null ? true : false;
+		Student student = studentDao.(sNum);
+		return student != null ?true :false;
 	}
 
 }

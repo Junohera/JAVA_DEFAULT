@@ -1,6 +1,9 @@
 package ems.member.service;
 
+import java.util.Map;
+
 import ems.member.Student;
+import ems.member.dao.StudentDao;
 
 public class StudentAllSelectService {
 	
@@ -10,7 +13,7 @@ public class StudentAllSelectService {
 		this.studentDao = studentDao;
 	}
 	
-	public Mapo<String, Student> allSelect(){
+	public Map<String, Student> allSelect(){
 		return studentDao.getStudentDB();
 	}
 
