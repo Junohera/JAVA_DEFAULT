@@ -6,7 +6,7 @@ import java.util.Map;
 import ems.member.Student;
 
 public class StudentDao {
-	
+
 	private Map<String, Student> studentDB = new HashMap<String, Student>();
 	
 	public void insert(Student student) {
@@ -25,7 +25,8 @@ public class StudentDao {
 		studentDB.remove(sNum);
 	}
 	
-	public Map<String, Student> getStudentDB(){
+	public Map<String, Student> getStudentDB() {
 		return studentDB;
 	}
+	
 }

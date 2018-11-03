@@ -20,7 +20,6 @@ INDEX VERSION 1.131+/Users/juno/dev/java/InfLearn_Spring/.metadata/.plugins/org.
 4044715751.index
 558823348.index
 3388598249.index
-3480830520.index
 2727754357.index
 2935125032.index
 1408230787.index
