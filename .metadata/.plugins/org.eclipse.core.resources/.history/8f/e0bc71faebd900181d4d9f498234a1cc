@@ -1,9 +1,0 @@
-package battery;
-
-// 인터페이스 생성 
-// 배터리값을 가져오는 메소드 
-public interface Battery {
-	
-	public int getBatteryValue();
-	
-} 
